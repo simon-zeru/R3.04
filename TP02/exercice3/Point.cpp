@@ -42,6 +42,15 @@ void Point::setY(int y) {
     this->m_y = y;
 }
 
+bool operator<(const Point& p1, const Point& p2) {
+    if (p1.getX() < p2.getX()) {
+        return true;
+    } else if (p1.getX() == p2.getX()) {
+        return p1.getY() < p2.getY();
+    }
+    return false;
+}
+
 void Point::saisir(std::istream & entree) {
     string nom;
     int x,y;

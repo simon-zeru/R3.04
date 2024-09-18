@@ -19,6 +19,8 @@ public:
 
     // A CCOMPLETER : Rajouter l'opérateur < pour le TP02 exercice 3
 
+
+
 private: // membres privés
     // attributs d'instance
     std::string m_nom;
@@ -29,6 +31,8 @@ private: // membres privés
     static const int X_DEF;
     static const int Y_DEF;
 };
+
+bool operator<(const Point &p1, const Point &p2);
 
 #endif /* POINT_H */
 

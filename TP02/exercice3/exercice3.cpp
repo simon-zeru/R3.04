@@ -57,10 +57,15 @@ void testSetValHorsBornes() {
 
 int main() {
 
-    testConstructeurValide();
-    testConstructeurHorsBornes();
-    testSetValValide();
-    testSetValHorsBornes();
+//    testConstructeurValide();
+//    testConstructeurHorsBornes();
+//    testSetValValide();
+//    testSetValHorsBornes();
+
+    Point p1;
+    Point * p2;
+
+    p1.saisir();
 
     return 0;
 }
