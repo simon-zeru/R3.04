@@ -14,6 +14,7 @@ void Visage::setMoustache(int largeur) {
 }
 
 void Visage::addBouton(int diametre) {
+    m_mesBoutons.push_back(diametre);
 }
 
 void Visage::setChapeau(const Chapeau &unChapeau) {
@@ -21,7 +22,8 @@ void Visage::setChapeau(const Chapeau &unChapeau) {
 }
 
 void Visage::addBijou(const Bijou &unBijou) {
-
+    const Bijou *bijou = new Bijou(unBijou);
+    this->m_mesBijoux.push_back(bijou);
 }
 
 const Visage &Visage::operator=(const Visage &unVisage) {
@@ -88,8 +90,8 @@ std::ostream &operator<<(std::ostream &sortie, const Visage &visage) {
     // Affiche les bijoux
     sortie << "  Bijoux: ";
     if (!visage.m_mesBijoux.empty()) {
-        for (const Bijou &bijou : visage.m_mesBijoux) {
-            sortie << bijou << " ";  // Assumant que `Bijou` a un opérateur de sortie
+        for (const Bijou *bijou : visage.m_mesBijoux) {
+            sortie << *bijou << " ";  // Assumant que `Bijou` a un opérateur de sortie
         }
     } else {
         sortie << "Aucun";

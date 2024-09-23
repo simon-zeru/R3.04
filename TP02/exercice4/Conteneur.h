@@ -33,7 +33,7 @@ Conteneur<T> &Conteneur<T>::operator=(const Conteneur<T> &unConteneur) {
     if (this != &unConteneur) {
         this->empty();
         for (T* element : unConteneur.contenu) {
-            contenu->push_back(element);
+            contenu.push_back(element);
         }
     }
     return *this;
@@ -61,7 +61,7 @@ void Conteneur<T>::empty() {
 
 template<class T>
 void Conteneur<T>::ajouter(T *element) {
-    contenu->push_back(element);
+    contenu.push_back(element);
 }
 
 template<class T>

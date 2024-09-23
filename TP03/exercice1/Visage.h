@@ -33,14 +33,13 @@ public:
 private:
 
     // A COMPLETER : CODEZ CORRECTEMENT LES COMPOSITIONS ET AGREGATIONS
-    Nez m_unNez;
-    const Ethnie & m_uneEthnie;
-    const Chapeau * m_unChapeau;
-    Moustache * m_uneMoustache;
-    std::vector<const Bijou> m_mesBijoux;
-    std::vector<Bouton> m_mesBoutons;
+    Nez m_unNez; // Composition 1..1
+    const Ethnie & m_uneEthnie; // Agrégation 1..1
+    const Chapeau * m_unChapeau; // Agrégation 0..1
+    Moustache * m_uneMoustache; // Composition 0..1
+    std::vector<const Bijou*> m_mesBijoux; // Agrégation 0..*
+    std::vector<Bouton> m_mesBoutons; // Composition 0..*
 
 };
 
 #endif /* VISAGE_H */
-

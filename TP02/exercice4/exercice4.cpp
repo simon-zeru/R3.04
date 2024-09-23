@@ -4,17 +4,25 @@
 #include <stdexcept>
 using namespace std;
 
-int main(int argc, char** argv) {
+int main() {
 
-    // A COMPLETER : tester le template Conteneur<T>
+    // Tester le template Conteneur<T>
     Conteneur<string> c1;
 
-    // Si des arguments sont passés, on les ajoute au conteneur
-    for (int i = 1; i < argc; ++i) {
-        c1.ajouter(new string(argv[i]));  // Ajouter chaque argument au conteneur
+    // Demander à l'utilisateur d'entrer des chaînes de caractères
+    int n;
+    cout << "Combien de chaînes de caractères voulez-vous ajouter ? ";
+    cin >> n;
+    cin.ignore();  // Pour ignorer le retour à la ligne laissé dans le buffer
+
+    for (int i = 0; i < n; ++i) {
+        cout << "Entrez la chaîne #" << i + 1 << ": ";
+        string* arg = new string();
+        getline(cin, *arg);  // Lire la chaîne de caractères entrée par l'utilisateur
+        c1.ajouter(arg);
     }
 
-    // Afficher les éléments ajoutés depuis les arguments
+    // Afficher les éléments ajoutés par l'utilisateur
     c1.afficher();
 
     // Copier le conteneur
@@ -22,16 +30,5 @@ int main(int argc, char** argv) {
     cout << "Conteneur copié :" << endl;
     c2.afficher();
 
-    // Demander à l'utilisateur de choisir un index
-    cout << "Choisissez un index (entre 0 et " << argc - 2 << ") : ";
-    int index;
-    cin >> index;
-
-    if (index >= 0 && index < argc - 1) {
-        cout << "Vous avez choisi: " << *c1.contenu.at(index) << endl;
-    } else {
-        cout << "Index invalide!" << endl;
-    }
-
-    return 0;;
+    return 0;
 }
