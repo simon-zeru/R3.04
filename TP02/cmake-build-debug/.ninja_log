@@ -1,9 +1,0 @@
-# ninja log v6
-8	173	1726474868350746917	CMakeFiles/exercice2.dir/exercice2/Personne.cpp.o	1c19d4e7dbb0a3b7
-9	225	1726474868350746917	CMakeFiles/exercice2.dir/exercice2/Groupe.cpp.o	df21f5cea17b500
-7	226	1726474868350746917	CMakeFiles/exercice2.dir/exercice2/exercice2.cpp.o	f6aad62cfab4f4ab
-226	273	1726474868350746917	exercice2	e3f41edaaedf4ddd
-10	65	1726475570967963524	exercice2	e3f41edaaedf4ddd
-8	197	1726478799846767904	CMakeFiles/exercice2.dir/exercice2/exercice2.cpp.o	f6aad62cfab4f4ab
-9	237	1726478799846767904	CMakeFiles/exercice2.dir/exercice2/Groupe.cpp.o	df21f5cea17b500
-238	288	1726478799846767904	exercice2	e3f41edaaedf4ddd
