@@ -107,7 +107,7 @@ std::ostream &operator<<(std::ostream &sortie, const Visage &visage) {
     } else {
         sortie << "Aucun";
     }
-    sortie << "\n";
+        sortie << "\n";
 
-    return sortie;
+        return sortie;
 }
