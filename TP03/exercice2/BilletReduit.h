@@ -15,7 +15,7 @@ public:
 
     friend std::ostream & operator<<(std::ostream & sortie, const BilletReduit & unBilletR);
 
-protected:
+private:
     const Promotion & m_promotion;
 
 };
