@@ -1,0 +1,10 @@
+# ninja log v5
+214	424	7499041525781247	CMakeFiles/exercice1.dir/exercice1/Fichier.cpp.obj	2ee313652e8cd9cd
+218	522	7499041526766659	CMakeFiles/exercice1.dir/exercice1/Repertoire.cpp.obj	a4a4c98930ad9c4b
+4	359	6862491934651472	CMakeFiles/exercice2.dir/exercice2/Parametres.cpp.obj	72f8915b0ba31b65
+206	512	7499041526675092	CMakeFiles/exercice1.dir/exercice1/exercice1.cpp.obj	d71f54d72830712b
+210	587	7499041527409688	CMakeFiles/exercice1.dir/exercice1/Element.cpp.obj	f42d3e01f37219d1
+587	665	7499041528165136	exercice1.exe	7c359963f7ceae02
+334	458	6862493469118722	exercice2.exe	d4620911821009c8
+4	333	6862493467899084	CMakeFiles/exercice2.dir/exercice2/exercice2.cpp.obj	b4ab854248c68993
+0	9	0	clean	f528cbea4f0ae9eb

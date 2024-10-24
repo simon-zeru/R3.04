@@ -1,0 +1,7 @@
+# ninja log v5
+4	349	6847465770267725	CMakeFiles/exercice1.dir/exercice1/exercice1.cpp.obj	2af3844bf4aa8ab2
+8	360	6847465564535409	CMakeFiles/exercice1.dir/exercice1/Point.cpp.obj	ed23a4ee2cafa3ba
+350	455	6847465771280897	exercice1.exe	2661bf4b639b1b03
+329	412	6853589441508396	exercice2.exe	330d33d3f80c27ae
+3	329	6853589440737750	CMakeFiles/exercice2.dir/exercice2/EntierContraint.cpp.obj	488efe5f478830c4
+8	328	6853589440728379	CMakeFiles/exercice2.dir/exercice2/exercice2.cpp.obj	175fbd022e237f2e

@@ -1,0 +1,5 @@
+# ninja log v5
+2	468	6871312675195069	CMakeFiles/exercice1.dir/exercice1.cpp.obj	4d02df45d3e47096
+0	8	0	clean	f528cbea4f0ae9eb
+6	604	6871312676565930	CMakeFiles/exercice1.dir/Salarie.cpp.obj	dcdf818bcf215847
+604	706	6871312677552408	exercice1.exe	fcce40c97e95fe8a

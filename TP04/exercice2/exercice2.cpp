@@ -2,13 +2,15 @@
 
 int main() {
     // Afficher les paramètres initiaux
-    // à compléter
+    Parametres & parametres = Parametres::getInstance();
+    parametres.afficher();
     // Instancier un thème intitulé "Urbain" et l'associer aux paramètres
-    // à compléter
+    parametres.setTheme(Theme("Urbain"));
     // Instancier un joueur nommé "Yoloutre" et l'associer aux paramètres
-    // à compléter
+    Joueur unJoueur("Yoloutre");
+    parametres.setJoueur(unJoueur);
     // Afficher les nouveaux paramètres
-    // à compléter
+    parametres.afficher();
     return 0;
 }
 

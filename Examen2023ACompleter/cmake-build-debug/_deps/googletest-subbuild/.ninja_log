@@ -1,0 +1,23 @@
+# ninja log v5
+1	40	7510243848855915	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	9ac47086125235e6
+1	40	7510243848855915	C:/BUT/BUT2/S3/R3.04/Examen2023ACompleter/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	9ac47086125235e6
+40	1038	7510243858835712	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	ff6b49a9209dfa44
+40	1038	7510243858835712	googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	ff6b49a9209dfa44
+40	1038	7510243858835712	C:/BUT/BUT2/S3/R3.04/Examen2023ACompleter/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	ff6b49a9209dfa44
+40	1038	7510243858835712	C:/BUT/BUT2/S3/R3.04/Examen2023ACompleter/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	ff6b49a9209dfa44
+1039	1071	7510243859169873	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	b07cff4f171ac25d
+1039	1071	7510243859169873	C:/BUT/BUT2/S3/R3.04/Examen2023ACompleter/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	b07cff4f171ac25d
+1071	1105	7510243859503696	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	6b82cf4622af72a7
+1071	1105	7510243859503696	C:/BUT/BUT2/S3/R3.04/Examen2023ACompleter/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	6b82cf4622af72a7
+1105	1139	7510243859844068	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	ab5f4cfbe840e7e9
+1105	1139	7510243859844068	C:/BUT/BUT2/S3/R3.04/Examen2023ACompleter/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	ab5f4cfbe840e7e9
+1139	1171	7510243860169239	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	d722d29ff963dd66
+1139	1171	7510243860169239	C:/BUT/BUT2/S3/R3.04/Examen2023ACompleter/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	d722d29ff963dd66
+1171	1207	7510243860524713	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	aa77c502a3f96413
+1171	1207	7510243860524713	C:/BUT/BUT2/S3/R3.04/Examen2023ACompleter/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	aa77c502a3f96413
+1207	1243	7510243860887715	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	c46c77252efbf26
+1207	1243	7510243860887715	C:/BUT/BUT2/S3/R3.04/Examen2023ACompleter/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	c46c77252efbf26
+1244	1289	7510243861346308	CMakeFiles/googletest-populate-complete	c839f91362330df1
+1244	1289	7510243861346308	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	c839f91362330df1
+1244	1289	7510243861346308	C:/BUT/BUT2/S3/R3.04/Examen2023ACompleter/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	c839f91362330df1
+1244	1289	7510243861346308	C:/BUT/BUT2/S3/R3.04/Examen2023ACompleter/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	c839f91362330df1
